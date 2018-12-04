@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    width : 800px;
+    margin: auto;
+}
+.cell {
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+    font-size: 100px;
+    text-align: center;
+}
+.cell:hover {
+    cursor: context-menu;
+}
+#box {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    width: 400px;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+}
+h2, button{
+    width: 300px;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
